@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emrullah Balaban</title>
+  </head>
+  <body>
+    <h1>Hakkımda</h1>
+    <p>
+      Merhabalar! Ben <strong> Emrullah Balaban </strong>. Öğrenim gördüğüm bölüm farklı olsada bilgisayar bilimlerine hep ilgi duydum. Patika.dev eğitimini arkadaşımdan duydum ve 
+      online eğitim sistemi ile kendimi geliştirebileceğimi düşünüyorum. Patika.dev ekibine teşekkür ederim. 
+    </p>
+    <h2>Hobilerim</h2>
+    <ul>
+      <li>Müzik dinlemek (Zeki Müren favorim)</li>
+      <div>
+        <img
+          src="Zeki Müren.jpg"
+          alt="Zeki Müren Spotify'ın + This is zeki müren fotoğrafı"
+          width="auto"
+          height="170"
+          title="This is zeki müren"
+        />
+      </div>
+      <li>Kitap Okumak</li>
+      <li>Yüzmek</li>
+      <li>Satranç</li>
+      <li>Film İzlemek</li>
+      <li>Dizi İzlemek</li>
+    </ul>
+    <h3>Peki neden Zeki Müren?</h3>
+    <p>
+      Müren, klasik Türk müziğinin en önemli isimlerinden biridir. Sesi, yorumu ve sahne performansı ile Türk müziğini modernleştirmiş ve yeni bir boyut kazandırmıştır.En sevdiğim 
+      şarkısı ise <strong>"Gözlerin Doğuyor Gecelerime"</strong>. Uykusuz geçen zifiri karanlık geceleri hayaliyle aydınlatan ve anlamsız kalmış bir hayatı renklendiren bakışlara 
+      sahip bir çift göz için söylenebilecek yegane sözlerin toplandığı şarkıdır.
+    </p>
+    <h3>Favori filmlerim</h3>
+    <ul>
+      <li>
+        <a
+          href="https://www.beyazperde.com/filmler/film-17646/"
+          >Eşkıya</a
+        >
+        <div>
+          <img src="Eşkıya.jpg" alt="" height="300" width="auto" />
+        </div>
+      </li>
+
+      <li>
+        <a
+          href="https://www.beyazperde.com/filmler/film-132304/"
+          >Kabadayı</a
+        >
+      </li>
+      <li>
+        <a href="https://www.imdb.com/title/tt1375666/?ref_=chttp_t_14"
+          >Inception</a
+        >
+      </li>
+    </ul>
+
+    <h3>Favori Dizilerim</h3>
+    <ul>
+      <li>
+        <a
+          href="https://www.beyazperde.com/diziler/dizi-9533/"
+          >Ezel</a
+        >
+        <div>
+          <img
+            src="Ezel.jpg"
+            alt=""
+            height="300"
+            width="auto"
+          />
+        </div>
+        <div>
+          Ömer, babasının atölyesinde çalışarak sade bir hayat içerisinde yaşamını sürdüren bir gençtir. Askerlik dönüşü sevgilisi Eyşan ile evlenmeyi planlamaktadır. Fakat kendisini
+          bir anda cinayetten hapiste bulunca hayatı allak bullak olur. Hapisteyken tanıştığı Ramiz Dayı, ikinci babası olur. Ömer kimliğini saklayarak, bir dizi estetik operasyon 
+          sonrası Ezel'e dönüşür. Hapishaneden çıktıktan sonra kendisine oyun oynandığına inanarak intikam için Eyşan'ın, en iyi arkadaşı Cengiz'in ve abisi bildiği Ali’nin peşine
+          düşer... Aşk, güç, para, mafya entrikaları hayatlarının bir parçasına dönüşürken, her biri intikamdan beslenir...
+        </div>
+      </li>
+      <li>
+        <a href="https://www.beyazperde.com/diziler/dizi-9871/"
+          >Kurtlar Vadisi</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.beyazperde.com/diziler/dizi-9652/"
+          >Akasya Durağı</a
+        >
+      </li>
+    </ul>
+
+    <h3>Favori kitabım</h3>
+    <h4>
+      <a
+        href="https://www.kitapyurdu.com/kitap/sefiller/77976.html"
+        >Sefiller / Victor Hugo</a
+      >
+    </h4>
+    <img
+      src="Sefiller.jpg"
+      alt="Sefiller Kapak Fotoğrafı"
+      title="Sefiller"
+      width="auto"
+      height="300"
+    />
+    <p>
+      Sefiller, kürek mahkumu Jan Valjean ve polis müfettişi Javert arasında sürüp giden bir kovalamacanın hikayesi üzerine kuruludur. Jan Valjean, yoksul bir köylüdür, ailesini 
+      doyurmak amacıyla çaldığı yalnızca bir somun ekmekten dolayı kürek cezasına çarptırılmış, defalarca kaçma teşebbüsünde bulunduğundan cezası katlanmış ve on dokuz seneye 
+      cıkmıştır.
+    </p>
+
+    <h1>Buraya kadar okduğunuz için teşekkür ederim :)
+        <div>
+            Emrullah Balaban 19/02/2024
+        </div>
+    </h1>
+  </body>
+</html>
