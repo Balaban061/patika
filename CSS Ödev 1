@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilgisayar Dükkanı</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Genel sayfa stili */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightcyan;
+        }
+
+        h2, h3 {
+         font-size: 30px;
+         color: #790208;
+        }
+
+        h4 {
+         text-align: center;
+         font-size: 40px;
+         color: darkslategray;
+        }
+
+        nav {
+            background-color: lightgrey;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1e168f;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .container {
+            background-color: #c2fcda;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bilgisayar Dükkanı</h1>
+    </header>
+
+    <nav>
+        <a href="anasayfa.html">Ana Sayfa</a>
+        <a href="hakkimda.html">Bilgisayar Modelleri</a>
+        <a href="iletisim.html">Bilgisayar Bileşenleri</a>
+    </nav>
+
+    <h4>Anasayfa</h4>
+
+    <div class="container">
+        <h2>Web Sitemizin İçeriği</h2>
+        <p>Bu, sitemizin ana sayfasıdır. Diğer sayfalara geçmek için yukarıdaki menüyü kullanabilirsiniz.</p>
+
+        <h3>Sitemizde Neler var?</h3>
+        <ul>
+            <li>Bilgisayar Modelleri</li>
+            <li>Bilgisayar Bileşenleri</li>
+        </ul>
+    </div>
+
+</body>
+</html>
