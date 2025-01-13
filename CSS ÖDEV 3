@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Balaban061">
+
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    background-color: rgb(250, 250, 250);
+}
+
+/* Header */
+
+.headeritems {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.headeritems a {
+    float: right;
+    text-decoration: none;
+    color: rgb(49, 8, 8);
+    margin: 1rem 0;
+    margin-right: 1rem;
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.inputbox {
+    margin-top: 2rem;
+    width: 580px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2.5rem;
+    box-shadow: 0px 0px 5px 0px rgba(168,166,168,1);
+}
+
+.inputbox input {
+    width: 480px;
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    background: none;
+    position: relative;
+    left: 1rem;
+    color: #5f6368;
+    font-size: 15.5px;
+    margin-top: 0.3rem;
+}
+
+.btn1 {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    background-color: #f2f2f2;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+/* Google Search */
+
+.container img {
+    width: 270px;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    background-color: #f2f2f2;
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 14px;
+}
+
+/* Footer */
+
+.footercontent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:#f2f2f2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navleft {
+    display: flex;
+    justify-content: start;
+    margin: 0.5rem 1rem 0.5rem  0;
+}
+
+.navleft a {
+    text-decoration: none;
+    padding-left: 1rem;
+    color: black;
+
+}
+
+ul {
+    list-style: none;
+}
+.navright {
+    display: flex;
+    justify-content: end;
+    margin: 0.5rem 1rem 0.5rem  0;
+}
+
+.navright a {
+        text-decoration: none;
+        padding-left: 1rem;
+        color: black;
+}
+
+
+</style>
+
+</head>
+<!-- Header -->
+<section class="header">
+    <div class="headeritems">
+      <a href="">Gmail</a>
+      <a href="">Resimler</a>
+      <input type="image" src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/refs/heads/main/css/odev2/google_homepage/assets/appsbutton.svg" height="20px">
+      <a href=""><i class="fa-bars"></i></a>
+      <button class="btn1">Kayıt Ol</button>
+    </div>
+  </section>
+
+  <!-- Google Search -->
+  <div class="container">
+    <img src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/refs/heads/main/css/odev2/google_homepage/assets/logo.png" />
+    <div class="inputbox">
+      <input type="search" />
+      <input type="image"
+      src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/refs/heads/main/css/odev2/google_homepage/assets/voicelogo.png" 
+       style="width:40px;float:right;margin-right:25px;">
+    </div>
+    <div class="button">
+      <button class="btn">Google'da Ara</button>
+      <button class="btn">Kendimi Şanslı hissediyorum</button>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footercontent">
+      <nav>
+        <ul class="navleft">
+          <a href=""><li>Hakkında</li></a>
+          <a href=""><li>Reklam</li></a>
+          <a href=""><li>İşletme</li></a>
+          <a href=""><li>Arama Nasıl Çalışır?</li></a>
+        </ul>
+      </nav>
+        <nav>
+        <ul class="navright">
+          <a href=""><li>Gizlilik</li></a>
+          <a href=""><li>Şartlar</li></a>
+          <a href=""><li>Ayarlar</li></a>
+        </ul></nav>
+    </div>
+  </footer>
+</body>
+</html>
